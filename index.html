@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Face Recognition</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+</head>
+<body>
+    <center>
+        <h1>FACE RECOGNITION</h1>
+        <br>
+        <br>
+        <h4>Model is trained to identify following faces</h4>
+        <br>
+        <br>
+        <div class="container" id="father_container">
+           <h3 id="father">Father</h3>
+        </div>
+       <br>
+       <br>
+        <div class="container" id="mother_container">
+           <h3 id="mother">Mother</h3>
+        </div>
+       <br>
+       <br>
+        <div class="container" id="adarsh_container">
+           <h3 id="adarsh">Adarsh</h3> 
+        </div>
+        <br>
+        <br>
+       </div> 
+      
+         <label>Webcam View</label>
+         <div id="camera"></div>
+         <br>
+         <br>
+         <div id="result"></div>
+         <br><br>
+         
+         <button onclick="take_snapshot();" class="btn btn-warning">Capture Image</button>
+         <br><br>
+         <button onclick="check();" class="btn btn-success">Identify Image</button>
+       </div>
+     <p style="font-size: 22px;" id="faces">Faces</p>
+     <p style="font-size: 22px;" id="accuracy">Accuracy</p>
+
+
+
+    </center>

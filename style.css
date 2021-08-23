@@ -1,0 +1,9 @@
+body{
+    text-align: left;
+    background-color: pink;
+}
+canvas{
+    width: 250px;
+    height:250px;
+    box-shadow: 5px 5px 5px blue;
+}
